@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init)",
+      "Bash(git add .)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Project documentation\n\n- Add project vision and objectives (docs/obiettivo.md)\n- Add detailed user flows (docs/flussi.md)\n- Add comprehensive feature specifications (docs/funzionalita.md)\n- Add technical documentation and architecture (docs/documentazione.md)\n- Add development roadmap and priorities (docs/priorita-sviluppo.md)\n- Add database schema with ER diagram (docs/database-schema.md)\n- Add README with project overview\n- Add .gitignore for Node.js/React Native\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
